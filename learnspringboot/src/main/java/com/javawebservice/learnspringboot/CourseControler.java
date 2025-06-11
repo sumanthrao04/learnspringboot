@@ -32,4 +32,9 @@ public class CourseControler {
         return message;
     }
 
+    @GetMapping("/")
+    public  String home(){
+        return "Welcome to master-java-web-services";
+    }
+
 }
